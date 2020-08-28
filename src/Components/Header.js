@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
-
+import "./Navbar.css";
 
 function Header (){
     return(
@@ -8,6 +8,7 @@ function Header (){
             <div>
                 <Navbar />
             </div>
+            <div className="navbar">
             <div>
                 <h1>The Talks</h1>
             </div>
@@ -15,7 +16,7 @@ function Header (){
             <div>
                 World Guide
             </div>
-            
+            </div> 
         </div>
     )
         
